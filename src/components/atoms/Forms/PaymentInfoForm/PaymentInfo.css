@@ -1,0 +1,17 @@
+.Pay-form {
+  display: flex;
+  color: var(--fontColor);
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.card-info-field {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+.postal-code-field {
+  display: flex;
+  flex-direction: row;
+}

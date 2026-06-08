@@ -1,0 +1,176 @@
+.manager-page {
+    min-height: 100vh;
+    background-color: var(--background);
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.manager-welcome {
+    color: var(--primary1);
+    display: flex;
+    flex-direction: start;
+    position: absolute;
+    top: 0;
+    left: 3%;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.375rem;
+    padding-top: 2rem;
+    padding-left: 1rem;
+}
+
+.msearch-button {
+    display: flex;
+    flex-direction: start;
+    position: absolute;
+    top: 0;
+    right: 3%;
+    padding-top: 3rem;
+    padding-left: 1rem;
+  }
+
+  .mnextprev-button {
+    display: flex;
+    justify-content: center;
+    top: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+/* Customers list styles */
+.customers-table-container h2{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+    color: var(--text-light);
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+}
+
+.customers-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--background-dark);
+    color: var(--text-light);
+}
+
+.customers-table thead {
+    background-color: #474747; /* Darker background for the table header */
+}
+
+.customers-table th{
+    text-align: center; 
+    color: var(--primary1); 
+    padding: 5px;
+    border: 1px solid white;
+} 
+
+.customers-table td {
+    text-align: start;
+    padding: 8px;
+    border: 1px solid white;
+}
+
+.customers-table th {
+    color: var(--primary1); /* Use primary color for table headers */
+}
+
+.customers-table tr:hover {
+    background-color: #474747; /* Hover effect for table rows */
+}
+
+.input-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.input-row label {
+    margin-right: 10px;
+    min-width: 100px;
+}
+
+.manager-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 6rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.manager-bar-icons {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color: var(--primary1);
+    height: auto;
+    width: 3rem;
+    gap: 1rem;
+    padding: 1rem 0;
+    border-radius: 6.25rem;
+    background-color: var(--surface1);
+}
+
+
+.download-csv,
+.tiers,
+.filter,
+.logout{
+    font-size: 24px;
+    position: relative;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    cursor: pointer;
+    z-index: 1;
+}
+
+@media screen and (max-height: 600px) {
+    .manager-bar-icons {
+        height: auto;
+        gap: 0.5rem;
+        padding: 0.5rem 0;
+    }
+}
+
+.select-dropdown-button {
+    position: relative; 
+    cursor: pointer;
+    width: 100%;  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.select-dropdown {
+    background: transparent;
+
+    padding: 1px;
+    margin-right: 10px; 
+    color: white; 
+    background-color: var(--surface1);
+    border-radius: .5rem;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 2.3rem;
+    width: 7.5rem; 
+    height: 1.5rem;
+
+}
+
+

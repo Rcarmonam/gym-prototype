@@ -1,0 +1,281 @@
+.Nutrition {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--background);
+  padding-left: 8rem;
+  padding-right: 8rem;
+  color: var(--fontColor);
+}
+
+.MainNutriPage {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.Nutrition-box1 {
+  flex: 1;
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 3rem;
+}
+
+.Nutrition-box2 {
+  flex: 1;
+  display: flex;
+  justify-content: center; /* Center children horizontally */
+  align-items: center; /* Center children vertically */
+  flex-basis: 50%;
+}
+
+.Nutrition-heading {
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: var(--fontColor);
+}
+
+.Nutrition-heading2 {
+  padding-bottom: 1rem;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: var(--fontColor);
+}
+
+.Nutrition-heading3 {
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: var(--fontColor);
+}
+
+.Nutrition-subheading {
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+
+.Calculator-box {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  height: 100%;
+}
+
+.Nutrition-result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 50%;
+  align-self: center;
+  background-color: var(--surface1);
+  padding: 1rem;
+  border-radius: 0.2rem;
+}
+
+.actual-result {
+  padding-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--primary2);
+}
+
+.Nutrition-form {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+  align-self: center;
+}
+
+.Nutrition-input {
+  margin-bottom: 1rem;
+}
+
+.Nutrition-food-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  padding-left: 5rem;
+}
+
+.Nutrition-label {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.Nutrition-input-field {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: none;
+  background-color: var(--surface1);
+  color: var(--fontColor);
+  border-radius: 4px;
+}
+
+.Nutrition-button:hover {
+  background-color: var(--primary2);
+}
+
+.Nutrition-result p {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary2);
+}
+
+.Recipe-search-form {
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.Recipe-search-form input {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: none;
+  background-color: var(--surface1);
+  color: var(--fontColor);
+  border-radius: 4px;
+}
+
+.Recipe-search-form button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background-color: var(--primary1);
+  color: var(--background);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Recipe-search-form button:hover {
+  background-color: var(--primary2);
+}
+
+.Recipe-container {
+  margin-bottom: 2rem;
+}
+
+.Recipe-container h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--primary2);
+}
+
+.Recipe-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.Recipe-list li {
+  background-color: var(--surface2);
+  padding: 1.5rem;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  max-height: 90vh; /* Set a maximum height for the recipe items */
+  overflow: hidden; /* Hide any overflowing content */
+}
+
+.Recipe-list h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--primary2);
+}
+
+.Recipe-list p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--fontColor);
+}
+
+.Recipe-image {
+  width: 100%;
+  height: 30%;
+  margin-bottom: 1rem;
+  flex-shrink: 0; /* Prevent the image from shrinking */
+}
+
+.Recipe-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.Recipe-details {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto; /* Hide any overflowing content */
+}
+
+.Recipe-details h3 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: var(--primary2);
+}
+
+.Recipe-serving {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--fontColor);
+}
+
+.Recipe-steps {
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.Recipe-steps h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--fontColor);
+}
+
+.Recipe-steps ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.Recipe-steps li {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--fontColor);
+  margin-bottom: 0.5rem;
+}
+
+.Recipe-nutrients {
+  display: flex;
+  padding-top: 1rem;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  color: var(--fontColor);
+  margin-top: auto;
+  flex-shrink: 0; /* Prevent the nutrients from shrinking */
+}

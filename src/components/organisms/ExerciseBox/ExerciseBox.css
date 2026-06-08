@@ -1,0 +1,64 @@
+.exercise-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.exercise-item-container {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+}
+
+.exercise-box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  cursor: pointer;
+  background-color: var(--surface3);
+  border-radius: 0.5rem;
+  z-index: 2;
+}
+
+.exercise-title {
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-size: 0.9rem;
+  color: var(--fontColor);
+  padding-right: 2rem;
+}
+
+.exercise-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%; 
+  padding: 0.8rem;
+}
+
+.exercise-checkmark {
+  margin-left: auto;
+  color: var(--fontColor);
+  flex-shrink: 0;
+}
+
+.exercise-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--surface2);
+  border-radius: 0.5rem;
+  gap: 0.5rem;
+  width: 100%;
+  height: 4rem;
+  margin-top: -1.5rem;
+  padding-top: 1rem;
+  z-index: 1;
+}
+
+.exercise-details input {
+  width: 2rem;
+  text-align: center;
+}

@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+
+  --background: #0c0c0c;
+  --fontColor: #e8e9e7;
+  --surface1: #242424;
+  --surface2: #3b3b3b;
+  --surface3: #545454;
+  --primary1: #9de58d;
+  --primary2: #b2eba4;
+}
+
+@layer base {
+  /*Title*/
+  h1 {
+    font-size: 12.5rem;
+    font-style: italic;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.625rem;
+  }
+
+  /* Used for normal text */
+  h2 {
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  /* Used for light text */
+  h3 {
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+
+  /* Subheading */
+  h4 {
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+
+  /* Card headings */
+  h5 {
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  h6 {
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  /* Used for normal text*/
+  subtitle1 {
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  /* Used for light text*/
+  subtitle2 {
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+
+  body1 {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  body2 {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  caption {
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .overline-Font {
+    font-size: 0.9375rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: normal;
+  }
+
+  .main-title {
+    font-size: 3.75rem;
+    font-weight: 300;
+    line-height: normal;
+  }
+
+  body {
+    margin: 0;
+  }
+  /* Hide the scrollbar by default */
+  body::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Show the scrollbar when the .scrolling class is added to the body */
+  body.scrolling::-webkit-scrollbar {
+    display: block;
+    width: 0.5rem;
+  }
+
+  body.scrolling::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  body.scrolling::-webkit-scrollbar-thumb {
+    background: var(--surface2);
+    border-radius: 1rem;
+  }
+
+  body.scrolling::-webkit-scrollbar-thumb:hover {
+    background: var(--surface3);
+  }
+}

@@ -1,0 +1,28 @@
+.Acc-form {
+    display: flex;
+    color: var(--fontColor);
+    background-color: var(--background);
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.name-fields {
+    display: flex;
+    gap: 1rem;
+}
+
+.demographic-fields {
+    display: flex;
+    gap: 1rem;
+}
+
+.Field {
+    flex: 1;
+}
+
+.log-button {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

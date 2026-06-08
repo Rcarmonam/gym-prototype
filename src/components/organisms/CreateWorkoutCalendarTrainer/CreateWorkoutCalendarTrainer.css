@@ -1,0 +1,219 @@
+.menu-containers {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  height: 60vh;
+}
+
+.left-menu-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-grow: 1;
+  width: 50%;
+}
+
+.ver-divider{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.right-menu-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 60vh; 
+  align-items: flex-start;
+  overflow-x: auto;
+  
+}
+
+.workout-name-input {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 550;
+  line-height: normal;
+  color: var(--surface2);
+  caret-color: var(--fontColor);
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 0;
+  width: 90%;
+}
+
+.trainer-name-input {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: var(--surface2);
+  caret-color: var(--fontColor);
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 0;
+  width: 90%;
+  padding-top: .4rem;
+}
+.description-input {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: var(--surface2);
+  caret-color: var(--fontColor);
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 90%;
+  margin-top: 1rem;
+}
+.img-src-input{
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: var(--surface2);
+  caret-color: var(--fontColor);
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 0;
+  width: 90%;
+  padding-top: .4rem;
+}
+.muscle-groups{
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: var(--surface2);
+  caret-color: var(--fontColor);
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 0;
+  width: 90%;
+  padding-top: .4rem;
+}
+
+.workout-name-input.filled {
+  color: var(--fontColor);
+}
+.trainer-name-input.filled {
+  color: var(--fontColor);
+}
+.description-input.filled {
+  color: var(--fontColor);
+}
+.img-src-input.filled {
+  color: var(--fontColor);
+}
+.muscle-groups.filled {
+  color: var(--fontColor);
+}
+
+.workout-calendar-repeat {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--fontColor);
+}
+
+.workout-calendar-repeat-options {
+  display: flex;
+  gap: 1rem;
+}
+
+.day-circle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.3rem;
+  height: 2.3rem;
+  border-radius: 50%;
+  background-color: var(--fontColor);
+  color: var(--background);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.day-circle.selected {
+  background-color: var(--primary2); 
+}
+
+.workout-calendar-repeat-weekly {
+  padding-top: 1rem;
+}
+
+.hori-divider{
+  padding-top: .1rem;
+  padding-bottom: 1.5rem;
+}
+
+.data-grid {
+  width: 100%;
+}
+
+.data-grid-title {
+  color: var(--fontColor);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-bottom: 1rem;
+}
+
+.exercise-searchbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column; 
+}
+
+.exer-box {
+  padding-top: 1rem;
+}
+
+.save-button {
+  position: absolute;
+  bottom: 1rem;
+  width: 45%;
+  display: flex;
+  justify-content: center; 
+}
+
+/* Customizes the scrollbar's overall appearance */
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+/* Customizes the scrollbar track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Customizes the scrollbar thumb (the part that you drag) */
+::-webkit-scrollbar-thumb {
+  background: var(--surface2);
+  border-radius: 1rem;
+}
+
+/* Changes the scrollbar thumb's appearance on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--surface3);
+}

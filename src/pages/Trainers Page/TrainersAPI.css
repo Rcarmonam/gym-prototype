@@ -1,0 +1,37 @@
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; /* Adjust the gap between cards as needed */
+    max-height: 38rem;
+    max-width: 70rem;
+    overflow-y: scroll;
+    margin-left: 2rem;
+}
+
+.card-header-trainers-api {
+    display: flex;
+}
+
+.card-header-source {
+    text-align: center;
+    border-bottom: solid white;
+    margin-bottom: .8rem;
+    padding-bottom: .2rem;
+}
+
+.newsData-title {
+    margin-left: 1rem;
+    color: var(--primary1);
+}
+
+.news-feed-title {
+    color: var(--primary1);
+    font-family: Roboto;
+    font-size: 1.35rem; 
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 1rem; 
+    margin-left: 16rem;
+    margin-top: 2rem;
+}

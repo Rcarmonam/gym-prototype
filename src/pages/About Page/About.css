@@ -1,0 +1,116 @@
+.about-page {
+  min-height: 100vh;
+  background-color: var(--background);
+  color: var(--fontColor);
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.mainTitle-container {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  padding-top: 3rem;
+  gap: 1rem;
+  text-align: left;
+  width: 100%;
+}
+
+.mainHeader-container{
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.mainText-container {
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-align: left;
+  max-width: 50rem;
+}
+
+.greenText {
+  color: var(--primary2);
+}
+
+.container1, .container2, .container3{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center; 
+  gap: 5rem;
+  padding-top: 5rem;
+}
+
+.guy-lift, .helping{
+  flex-grow: 1;
+}
+
+.treadmill {
+  align-self: flex-end;
+  right: 0;
+}
+
+.container1-header, .container2-header, .container3-header{
+  color: var(--primary2); 
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-bottom: 1rem;
+}
+
+.container1-subtext, .container2-subtext, .container3-subtext{
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.button1, .button2, .button3{
+  padding-top: 1.5rem;
+}
+
+.container1-text {
+  text-align: right;
+  flex-grow: 1;
+  max-width: 50rem;
+
+}
+
+.container2-text {
+  text-align: left;
+  flex-grow: 1;
+  max-width: 50rem;
+
+}
+
+.container3-text {
+  text-align: right;
+  flex-grow: 1;
+  max-width: 50rem;
+
+}
+
+@media (min-width: 2000px) {
+  .mainHeader-container {
+    font-size: 3rem; 
+  }
+
+  .mainText-container, .container1-subtext, .container2-subtext, .container3-subtext {
+    font-size: 1.5rem;
+  }
+
+  .container1-header, .container2-header, .container3-header {
+    font-size: 2.5rem;
+  }
+
+  .about-page {
+    padding-left: 11rem;
+    padding-right: 11rem;
+  }
+}

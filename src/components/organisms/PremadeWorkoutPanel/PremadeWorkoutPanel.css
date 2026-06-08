@@ -1,0 +1,27 @@
+.muscle-group-container {
+    border-bottom: 0.1rem solid var(--surface3);
+    margin-bottom: 1.25rem; 
+    padding-bottom: 1.25rem; 
+    display: flex;
+    gap: 1rem; 
+    overflow-x:scroll;
+}
+
+.muscle-group-title {
+    color: var(--Primary-1, #9DE58D);
+    font-family: Roboto;
+    font-size: 1.35rem; 
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 1rem; 
+}
+
+.meet-trainers {
+    color: var(--Primary-1, #9DE58D);
+    font-family: Roboto;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

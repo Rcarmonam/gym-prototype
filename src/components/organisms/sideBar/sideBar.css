@@ -1,0 +1,48 @@
+.side-bar {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 6rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.side-bar-icons {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary1);
+  width: 3rem;
+  gap: 1rem;
+  border-radius: 6.25rem;
+  background-color: var(--surface1);
+}
+
+
+.circle {
+  position: absolute;
+  width: 3rem; 
+  height: 3rem; 
+  background-color: var(--surface2);
+  border-radius: 50%;
+  transition: top 0.3s ease-out; 
+}
+
+.calendar, .dumb-bell, .food, .data-bar {
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  cursor: pointer;
+  z-index: 1;
+}

@@ -1,0 +1,25 @@
+.container {
+    width: 18rem;
+    height: auto; /* Change to auto to allow for variable height */
+    flex-shrink: 0;
+    border-radius: .3rem;
+    background-color: var(--Surface-2, #3B3B3B);
+    display: flex;
+    justify-content: space-between; /* Align items with space in-between */
+    align-items: center; /* Align items vertically */
+    padding: 0.5rem 1rem; /* Add padding as needed */
+}
+
+.workoutInfo {
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+
+.workoutName {
+    margin-bottom: 0.5rem; /* Add margin between name and time */
+}
+
+.workoutMenuBtn {
+    display: flex;
+}

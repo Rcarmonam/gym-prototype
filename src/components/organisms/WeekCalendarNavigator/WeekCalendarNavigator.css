@@ -1,0 +1,88 @@
+.topContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80rem;
+    margin-left: -2.2rem;
+    margin-top: -3.8rem;
+}
+
+.nextPrevButtons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 18rem;
+}
+
+.functionButtons {
+    display: flex;
+    gap: 1rem;
+    padding-right: 5rem;
+}
+
+.dateDisplay {
+    flex-grow: 1;
+}
+
+/* Mid container */
+.mid-container {
+    position: relative;
+    width: 80rem;
+    margin-left: -2.2rem;
+    min-height: 37rem;
+    display: flex;
+
+}
+
+.week-day-list-container {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10rem;
+    flex: 0 0 auto;
+    justify-content: space-between;
+}
+
+.week-day {
+    align-items: center;
+    color: var(--Font, #E8E9E7);
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 4rem;
+    margin-bottom: 8.5rem;
+}
+
+.display-workouts-container {
+    width: 80%;
+    overflow-x: auto;
+}
+
+.workouts-holder {
+    border-bottom: 0.1rem solid var(--surface3);
+    height: 10rem;
+    overflow-x: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.workout-box {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 2.4rem;
+}
+
+/*Month Date Display*/
+.monthDateDisplay {
+    color: var(--Font, #E8E9E7);
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

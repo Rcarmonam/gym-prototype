@@ -1,0 +1,33 @@
+.login-form {
+    display: flex;
+    color: var(--fontColor);
+    background-color: var(--background);
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.forgot-password {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--primary2);
+    text-align: right;
+}
+
+.forgot-password-link {
+    color: var(--primary2);
+    text-decoration: underline; 
+    cursor: pointer;
+}
+
+.forgot-password-link:hover {
+    text-decoration: none; 
+}
+
+.logIn-button {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

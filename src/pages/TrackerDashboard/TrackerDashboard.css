@@ -1,0 +1,16 @@
+ .TrackerDashboard {
+  min-height: 100vh;
+  background-color: var(--background);
+} 
+
+.hello-message {
+  font-size: 2rem;
+  position: absolute;
+  top: 7.5rem;
+  left: 8rem;
+  z-index: 1;
+}
+
+.customer-name {
+  color: var(--primary2);
+}

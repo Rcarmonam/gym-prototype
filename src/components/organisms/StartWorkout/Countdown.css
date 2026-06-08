@@ -1,0 +1,17 @@
+.count-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.countdown {
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.125rem;
+  color: var(--fontColor);
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+}

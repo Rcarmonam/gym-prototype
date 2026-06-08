@@ -1,0 +1,55 @@
+.edit-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  height: 60vh;
+}
+
+.left-edit-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-grow: 1;
+  width: 50%;
+}
+
+.right-edit-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 60vh;
+  align-items: flex-start;
+  overflow-x: auto;
+}
+
+.left-edit-title {
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 550;
+    line-height: normal;
+    color: var(--fontColor);
+    padding-bottom: 1rem;
+}
+
+.edit-subtitle {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--fontColor);
+    padding-bottom: 1rem;
+}
+
+.exercise-searchbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column; 
+  }
+
+  .exer-box {
+    padding-top: 1rem;
+  }

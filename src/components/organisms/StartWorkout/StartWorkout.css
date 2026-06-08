@@ -1,0 +1,46 @@
+.start-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 90vw;
+}
+.main-start-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80%;
+}
+
+.chevron-left,
+.chevron-right {
+  color: var(--fontColor);
+  padding: 1rem;
+}
+
+.exercise-desc, .video-box {
+    text-align: left;
+    width: 30%;
+}
+
+.exercise-name-start {
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.rep-set {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.6875rem;
+}
+
+.description-start {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6875rem;
+}

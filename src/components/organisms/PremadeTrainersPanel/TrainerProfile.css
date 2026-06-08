@@ -1,0 +1,107 @@
+.trainer-content {
+    margin-top: 2rem;
+    width: 80rem;
+    height: auto;
+}
+
+.trainer-content>div {
+    margin-right: 2rem;
+}
+
+.trainer-text-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+}
+
+.trainer-info {
+    padding: 1rem;
+    background-color: var(--surface1);
+    border-radius: .5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: auto;
+    display: flex;
+}
+
+.trainer-name {
+    color: var(--primary1);
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.bio {
+    margin-top: 1rem;
+    color: var(--fontColor);
+    font-size: 1rem;
+    line-height: 1.6;
+    width: 20rem;
+}
+
+.workout-cards {
+    overflow-x: auto;
+}
+
+.workout-card-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.image-gallery {
+    display: flex;
+    margin-left: 1.2rem;
+}
+
+.image-container {
+    width: 12.8rem; 
+    height: 20rem; 
+    margin: .5rem;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: .3rem;
+    transition: transform 0.3s ease, filter 0.10s ease;
+    filter: grayscale(100%) blur(.30rem); /* Initially grayscale and blurred */
+}
+
+.image-container:hover {
+    transform: scale(1.16); 
+    border-radius: .3rem;
+    z-index: 1;
+}
+
+.image-container:hover img {
+    transform: scale(1.2);
+    filter: grayscale(0%); /* Remove grayscale on hover */
+    border-radius: .3rem;
+}
+
+.image-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.10s ease;
+    color: var(--surface2);
+    background-color: var(--primary1);
+    border-radius: .3rem;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 2rem;
+    line-height: normal;
+    width: 100%;
+}
+
+.image-container:hover .image-overlay {
+    opacity: 1;
+}

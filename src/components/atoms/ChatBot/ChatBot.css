@@ -1,0 +1,55 @@
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 35rem;
+    width: 20rem;
+    z-index: 9999;
+}
+
+.message-container {
+    flex-grow: 1;
+    overflow-y: auto;
+    max-width: 100%; /* Set maximum width for the message container */
+    max-height: auto;
+    margin: 0 auto; /* Center the message container horizontally */
+}
+
+.message {
+    margin-bottom: 1rem;
+    padding: .9rem;
+    max-width: auto;
+    display: flex;
+    align-items: flex-start; 
+}
+
+.avatarChat {
+    margin-right: 1rem; /* Adjust the margin between the avatar and the message */
+}
+
+.message.user {
+    align-self: flex-end;
+    border-radius: .8rem;
+    border-bottom-right-radius: 0rem;
+    background-color: var(--primary2);
+    color: var(--background);
+}
+
+.message.ChatGPT {
+    align-self: flex-start;
+    border-radius: .8rem;
+    border-bottom-left-radius: 0rem;
+    background-color: var(--surface3);
+}
+
+.message.system {
+    align-self: center;
+    background-color: #F2F2F2;
+}
+
+.input-container {
+    border-top: #F2F2F2 solid;
+    padding-top: 1rem;
+    display: flex;
+    gap: .5rem;
+}
+

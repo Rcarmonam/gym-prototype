@@ -1,0 +1,28 @@
+.customDataGrid {
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  width: 30vw;
+  max-height: 15vw;
+  overflow-x: scroll;
+}
+
+.customDataGridHeader {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.no-exercises {
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  width: 30vw;
+}

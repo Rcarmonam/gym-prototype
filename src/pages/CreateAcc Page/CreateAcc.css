@@ -1,0 +1,94 @@
+.acc-page {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background);
+  margin: 0;
+}
+
+.create-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.acc-First-Box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.acc-First-Box,
+.acc-second-Box {
+  flex: 1;
+  flex-basis: 50%;
+}
+
+.accPic-image {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  object-position: right;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 0.3) 100%
+  );
+}
+.image-caption-acc {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  height: 50%;
+  width: 70%;
+}
+
+.big-caption-acc {
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  align-items: center;
+}
+
+.text-box {
+  color: var(--fontColor);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-bottom: 1rem;
+  text-align: left;
+}
+
+.acc-welcome {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: left;
+}
+
+.acc-sub {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+}
+
+.login-link {
+  color: var(--primary2);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}

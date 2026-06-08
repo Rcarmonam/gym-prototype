@@ -1,0 +1,166 @@
+.membership-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--background);
+}
+
+.membership-title {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: var(--fontColor);
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+}
+
+.membership-box-containers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90%;
+  height: 60vh;
+  gap: 2rem;
+}
+
+.startpower-membership,
+.ultimatepower-membership {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  width: 30%;
+  height: 100%;
+  background-color: var(--surface1);
+  color: var(--fontColor);
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.powerboost-membership {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  width: 30%;
+  height: 100%;
+  background-color: var(--primary1);
+  color: var(--background);
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.startpower-title,
+.powerboost-title,
+.ultimatepower-title {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 3rem;
+  padding-top: 2rem;
+}
+
+.startpower-prices,
+.powerboost-prices,
+.ultimatepower-prices {
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-left: 3rem;
+  padding-top: 0.3rem;
+}
+
+.startpower-description,
+.powerboost-description,
+.ultimatepower-description {
+  font-size: 1.05rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6;
+  padding-left: 6rem;
+  padding-right: 3rem;
+}
+
+.startpower-button,
+.powerboost-button,
+.ultimatepower-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: var(--background);
+  cursor: pointer;
+  position: absolute;
+  bottom: 3rem; 
+  left: 0;
+  right: 0;
+}
+
+.membership-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.mem-footer-text {
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: var(--fontColor);
+  padding-bottom: 1rem;
+}
+
+.mem-foot-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+@media (min-width: 2000px) {
+  .startpower-description,
+  .powerboost-description,
+  .ultimatepower-description {
+    font-size: 1.4rem;
+  }
+
+  .startpower-prices,
+  .powerboost-prices,
+  .ultimatepower-prices {
+    font-size: 1.6rem;
+  }
+
+  .startpower-title,
+  .powerboost-title,
+  .ultimatepower-title {
+    font-size: 2.4rem;
+    padding-top: 3rem;
+  }
+
+  .startpower-button,
+  .powerboost-button,
+  .ultimatepower-button {
+    padding-top: 1.5rem;
+  }
+
+  .membership-title {
+    font-size: 1.8rem;
+  }
+
+  .mem-footer-text {
+    font-size: 1.4rem;
+  }
+}

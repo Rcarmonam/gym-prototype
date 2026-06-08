@@ -1,0 +1,8 @@
+.exercise-details-view {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1rem;
+    width: 100%;
+    padding-left: 0.5rem;;
+  }

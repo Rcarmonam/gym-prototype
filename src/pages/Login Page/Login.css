@@ -1,0 +1,113 @@
+.login-page {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background);
+  margin: 0;
+}
+
+.signin-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 50%;
+}
+
+.login-First-Box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-First-Box {
+  flex: 1;
+  flex-basis: 50%;
+}
+
+.login-second-Box {
+  position: relative;
+  color: var(--fontColor);
+  height: 100vh;
+  flex: 1;
+  flex-basis: 50%;
+}
+
+.LoginPic-image {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  object-position: right;
+  z-index: -1;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 0.3) 100%
+  );
+}
+
+.text-box {
+  color: var(--fontColor);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-bottom: 1rem;
+  text-align: left;
+}
+
+.login-welcome {
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: left;
+}
+
+.login-sub {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+}
+
+.sign-up {
+  color: var(--fontColor);
+  padding-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-account-link {
+  color: var(--primary2);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.create-account-link:hover {
+  text-decoration: underline;
+}
+
+.image-caption {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  height: 50%;
+  width: 70%;
+}
+
+.big-caption {
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

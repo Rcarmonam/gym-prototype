@@ -1,0 +1,22 @@
+.login-text {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.375rem;
+}
+
+/* Transparent style*/
+.login-button.style1 {
+  color: var(--fontColor);
+}
+
+/* Primary style */
+.login-button.style2 {
+  color: var(--background);
+  background-color: var(--primary1);
+}
+
+/* Outline style */
+.login-button.style3 {
+  color: var(--fontColor);
+}

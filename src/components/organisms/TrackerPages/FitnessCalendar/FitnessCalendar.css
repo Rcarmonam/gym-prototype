@@ -1,0 +1,17 @@
+.FitnessCalendar {
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: var(--background);
+    padding: 20px;
+}
+
+.WeekCalendarNavigatorBox {
+    margin-left: 10rem;
+    margin-top: 8rem;
+    color: var(--Font, #E8E9E7);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

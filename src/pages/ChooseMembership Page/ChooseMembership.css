@@ -1,0 +1,142 @@
+.full-page {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  background-color: var(--background);
+}
+
+.form-big-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-small-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.header-text-box {
+  color: var(--fontColor);
+  display: flex;
+  flex-direction: column;
+  padding-left: 2.5rem;
+  padding-top: 5rem;
+}
+
+.membership-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1rem;
+  padding-top: 1.5rem;
+}
+
+.membership-options :hover {
+  background-color: var(--surface3);
+}
+
+.first-membership,
+.second-membership,
+.third-membership {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: var(--surface1);
+  color: var(--fontColor);
+  text-align: left;
+  width: 80%;
+  height: 25%;
+  margin: 1rem;
+  padding: 1.2rem;
+}
+
+.membership-header {
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.membership-description {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 0.5rem;
+}
+
+.membership-price {
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-top: 0.5rem;
+}
+
+.login-link {
+  color: var(--primary2);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.acc-second-Box {
+  position: relative;
+  color: var(--fontColor);
+  height: 100%;
+}
+
+.next-button {
+  padding-bottom: 5rem;
+}
+
+.accPic-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: right;
+  z-index: -1;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 0.3) 100%
+  );
+}
+
+.image-caption {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  height: 50%;
+  width: 70%;
+}
+
+.big-caption {
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.little-caption {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.first-membership.selected,
+.second-membership.selected,
+.third-membership.selected {
+  border: 0.2rem solid var(--primary1);
+  border-radius: 0.25rem;
+}
