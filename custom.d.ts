@@ -14,3 +14,12 @@ declare module "*.svg" {
     export { schemeCategory10 } from "d3-scale-chromatic";
     export { arc, pie } from "d3-shape";
   }
+
+  interface ImportMetaEnv {
+    readonly VITE_OPENAI_API_KEY?: string;
+    readonly [key: string]: string | undefined;
+  }
+
+  interface ImportMeta {
+    readonly env: ImportMetaEnv;
+  }

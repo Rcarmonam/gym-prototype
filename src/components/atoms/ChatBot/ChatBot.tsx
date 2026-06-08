@@ -9,7 +9,7 @@ import {
 } from "@fluentui/react-components";
 import { SendFilled } from "@fluentui/react-icons";
 
-const apiKey = process.env.NEXT_PUBLIC_OPENAI_API_KEY;
+const apiKey = import.meta.env.VITE_OPENAI_API_KEY;
 const constInfo =
   "Your name is Guac. You are a chat assistant recommending exercises and lifts to our Power Pit fitness app users based on their desired muscle groups or goals.";
 const useStyles = makeStyles({
